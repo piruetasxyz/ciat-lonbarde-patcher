@@ -2,7 +2,12 @@
   "name": "ciat-lonbarde-patcher",
   "version": "0.0.1",
   "description": "patcher for ciat-lonbarde instruments",
-  "scripts": {},
+  "scripts": {
+    "start": "npx parcel src/index.html"
+  },
   "author": "piruetasxyz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
